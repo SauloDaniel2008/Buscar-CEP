@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(57, 224, 132);
+    backdrop-filter: blur(50px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white ;
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    text-align: center;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
